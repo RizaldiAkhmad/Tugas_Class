@@ -50,7 +50,25 @@ int main(){
 		cout << " - Tekstur dan Warna = " <<maduTJ.teksturdanwarna<<endl;
 		maduTJ.berkhasiat("Khasiat utama dapat meningkatkan Metabolisme tubuh agar tetap sehat dan kuat");
 		maduTJ.kualitas("baik");
-	}
+	}else if(pilih=="MADUALWADEY"){
+		cout << "Madu Al Wadey : "<<endl;
+	cout << " - Jumlah Madu		 = "<<maduAlWadey.jumlahmadu<<"Botol"<<endl;
+	cout << " - Harga Madu		 = "<<maduAlWadey.hargamadu<<" Rupiah"<<endl;
+	cout << " - Jenis Madu 		 = " <<maduAlWadey.jenismadu<<endl;
+	cout << " - Tekstur dan Warna	 = " <<maduAlWadey.teksturdanwarna<<endl;
+		maduAlWadey.berkhasiat("Khasia utamanya digunakan untuk kecantikan seperti mengencangkan kulit dll");
+		maduAlWadey.kualitas("cukup baik");
+	}else if(pilih=="MADUBIMA"){
+	cout << "MADUBIMA : "<<endl;
+	cout << " - Jumlah Madu	 	 = "<<maduBima.jumlahmadu<<"Botol"<<endl;
+	cout << " - Harga Madu		 = "<<maduBima.hargamadu<<" Rupiah"<<endl;
+	cout << " - Jenis Madu 	     	= " <<maduBima.jenismadu<<endl;
+	cout << " - Tekstur dan Warna 	 = " <<maduBima.teksturdanwarna<<endl;
+	maduBima.berkhasiat("Khasiat utamanya dapat Membantu menyembuhkan diabetes");
+	maduBima.kualitas("sangat baik");}
+	
+	
+	
 	
 	
 }
