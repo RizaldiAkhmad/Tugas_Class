@@ -22,7 +22,7 @@ void madu::kualitas(string hasil){
 	cout << "Kualitas : " <<hasil<<endl <<endl;
 	}	
 int main(){
-	
+	madu maduTJ, maduAlWadey, maduBima;
 	
 	
 }
