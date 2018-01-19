@@ -42,7 +42,15 @@ int main(){
 	string pilih;
 	cout<< "Pilih Madu : "; cin >> pilih;
 	
-	
+	if(pilih=="MADUTJ"){
+		cout << "Madu TJ : "<<endl;
+		cout << " - Jumlah Madu       = " <<maduTJ.jumlahmadu<<"Botol"<<endl;
+		cout << " - Harga Madu 	     = " <<maduTJ.hargamadu<<" Rupiah"<<endl;
+		cout << " - Jenis Madu        = " <<maduTJ.jenismadu<<endl;
+		cout << " - Tekstur dan Warna = " <<maduTJ.teksturdanwarna<<endl;
+		maduTJ.berkhasiat("Khasiat utama dapat meningkatkan Metabolisme tubuh agar tetap sehat dan kuat");
+		maduTJ.kualitas("baik");
+	}
 	
 	
 }
