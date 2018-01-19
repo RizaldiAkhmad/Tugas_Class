@@ -39,6 +39,9 @@ int main(){
 	maduBima.jenismadu ="Hitam Pahit";
 	maduBima.teksturdanwarna ="Sangat Kental & Hitam Pekat";
 	
+	string pilih;
+	cout<< "Pilih Madu : "; cin >> pilih;
+	
 	
 	
 	
